@@ -30,3 +30,11 @@
 [2026-05-02 19:31:51] Checking: aws-main-key | Status: expiring_soon | Days left: 11
 [2026-05-02 19:31:51] \033[0;32mOK: aws-main-key is healthy — 11 days remaining\033[0m
 [2026-05-02 19:31:51] \033[0;32mBrain check complete.\033[0m
+[2026-05-02 19:42:47] \033[0;32mGit Scanner starting...\033[0m
+[2026-05-02 19:42:47] Scanning last commit for leaked secrets...
+[2026-05-02 19:42:47] \033[0;31mLEAKED SECRET FOUND!\033[0m
+[2026-05-02 19:42:47] \033[1;33mPattern matched: AKIA[0-9A-Z]{16}\033[0m
+[2026-05-02 19:42:48] \033[0;31mStatus updated to compromised in DB\033[0m
+[2026-05-02 19:42:48] [CRITICAL] aws-main-key - AWS key leaked in git commit — immediate action needed
+[2026-05-02 19:42:48] Checking for accidentally committed .env files...
+[2026-05-02 19:42:48] \033[0;31mGit scan complete — issues found! Check alerts above.\033[0m
