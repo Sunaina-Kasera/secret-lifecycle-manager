@@ -1,0 +1,32 @@
+[2026-05-02 19:24:11] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:24:11] Total secrets found: 1
+[2026-05-02 19:24:11] Checking: aws-main-key | Status: active | Days left: -274
+[2026-05-02 19:24:11] \033[1;33mWARNING: aws-main-key expires in -274 days\033[0m
+[2026-05-02 19:24:11] [WARNING] aws-main-key - Secret expires in -274 days
+[2026-05-02 19:24:11] \033[0;32mBrain check complete.\033[0m#!/bin/bash
+[2026-05-02 19:24:11] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:24:11] Total secrets found: 1
+[2026-05-02 19:24:11] Checking: aws-main-key | Status: expiring_soon | Days left: -274
+[2026-05-02 19:24:11] \033[0;32mOK: aws-main-key is healthy — -274 days remaining\033[0m
+[2026-05-02 19:24:11] \033[0;32mBrain check complete.\033[0m
+[2026-05-02 19:28:25] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:28:25] Total secrets found: 1
+[2026-05-02 19:28:25] Checking: aws-main-key | Status: active | Days left: 91
+[2026-05-02 19:28:25] \033[0;32mOK: aws-main-key is healthy — 91 days remaining\033[0m
+[2026-05-02 19:28:25] \033[0;32mBrain check complete.\033[0m#!/bin/bash
+[2026-05-02 19:28:25] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:28:25] Total secrets found: 1
+[2026-05-02 19:28:25] Checking: aws-main-key | Status: active | Days left: 91
+[2026-05-02 19:28:25] \033[0;32mOK: aws-main-key is healthy — 91 days remaining\033[0m
+[2026-05-02 19:28:25] \033[0;32mBrain check complete.\033[0m
+[2026-05-02 19:31:51] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:31:51] Total secrets found: 1
+[2026-05-02 19:31:51] Checking: aws-main-key | Status: active | Days left: 11
+[2026-05-02 19:31:51] \033[1;33mWARNING: aws-main-key expires in 11 days\033[0m
+[2026-05-02 19:31:51] [WARNING] aws-main-key - Secret expires in 11 days
+[2026-05-02 19:31:51] \033[0;32mBrain check complete.\033[0m#!/bin/bash
+[2026-05-02 19:31:51] \033[0;32mBrain starting...\033[0m
+[2026-05-02 19:31:51] Total secrets found: 1
+[2026-05-02 19:31:51] Checking: aws-main-key | Status: expiring_soon | Days left: 11
+[2026-05-02 19:31:51] \033[0;32mOK: aws-main-key is healthy — 11 days remaining\033[0m
+[2026-05-02 19:31:51] \033[0;32mBrain check complete.\033[0m
