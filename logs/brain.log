@@ -38,3 +38,18 @@
 [2026-05-02 19:42:48] [CRITICAL] aws-main-key - AWS key leaked in git commit — immediate action needed
 [2026-05-02 19:42:48] Checking for accidentally committed .env files...
 [2026-05-02 19:42:48] \033[0;31mGit scan complete — issues found! Check alerts above.\033[0m
+[2026-05-02 19:53:08] \033[0;32mExpiry Watcher starting...\033[0m
+[2026-05-02 19:53:08] Monitoring 1 secret(s)...
+[2026-05-02 19:53:08] \033[0;32mOK: aws-main-key — 91 days remaining\033[0m
+[2026-05-02 19:53:08] \033[0;32mExpiry Watcher complete.\033[0m
+[2026-05-02 20:22:01] \033[0;32mAuto Rotator starting...\033[0m
+[2026-05-02 20:22:01] \033[1;33mRotating: aws-main-key (type: aws_access_key, status: expiring_soon)\033[0m
+[2026-05-02 20:22:04] IAM User found: slm-bot
+[2026-05-02 20:22:04] Creating new AWS access key...
+[2026-05-02 20:22:07] \033[0;32mNew key created: AKIAUYWUDVCDCTHHZEWA\033[0m
+[2026-05-02 20:22:07] Saving new key to SSM Parameter Store...
+[2026-05-02 20:22:11] \033[0;32mNew key saved to SSM Parameter Store\033[0m
+[2026-05-02 20:22:11] \033[0;32mDB updated — new expiry: 2026-07-31\033[0m
+[2026-05-02 20:22:11] [SUCCESS] aws-main-key - Key successfully rotated — new expiry: 2026-07-31
+[2026-05-02 20:22:11] \033[0;32mRotation complete for: aws-main-key\033[0m
+[2026-05-02 20:22:11] \033[0;32mAuto Rotator complete.\033[0m
