@@ -53,3 +53,15 @@
 [2026-05-02 20:22:11] [SUCCESS] aws-main-key - Key successfully rotated — new expiry: 2026-07-31
 [2026-05-02 20:22:11] \033[0;32mRotation complete for: aws-main-key\033[0m
 [2026-05-02 20:22:11] \033[0;32mAuto Rotator complete.\033[0m
+[2026-05-03 11:03:42] Sending WARNING alert to Slack for: aws-main-key
+[2026-05-03 11:03:42] \033[0;32mSlack alert sent successfully!\033[0m
+[2026-05-03 11:05:09] \033[0;32mBrain starting...\033[0m
+[2026-05-03 11:05:09] Total secrets found: 1
+[2026-05-03 11:05:09] Checking: aws-main-key | Status: active | Days left: 89
+[2026-05-03 11:05:09] \033[0;32mOK: aws-main-key is healthy — 89 days remaining\033[0m
+[2026-05-03 11:05:09] \033[0;32mBrain check complete.\033[0m#!/bin/bash
+[2026-05-03 11:05:09] \033[0;32mBrain starting...\033[0m
+[2026-05-03 11:05:09] Total secrets found: 1
+[2026-05-03 11:05:09] Checking: aws-main-key | Status: active | Days left: 89
+[2026-05-03 11:05:09] \033[0;32mOK: aws-main-key is healthy — 89 days remaining\033[0m
+[2026-05-03 11:05:09] \033[0;32mBrain check complete.\033[0m
